@@ -1,0 +1,17 @@
+.team-match-container {
+  background-color: #a4261d;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.team-banner {
+  width: 100%;
+}
+
+.match-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0px;
+}

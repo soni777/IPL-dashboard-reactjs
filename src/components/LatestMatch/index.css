@@ -1,0 +1,71 @@
+.latest-match-details-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e293b;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.latest-match-details-and-logo {
+  display: flex;
+  align-items: center;
+}
+
+.latest-match {
+  width: 70%;
+}
+
+.latest-team-name {
+  font-size: 16px;
+}
+
+.latest-team-logo {
+  height: 60px;
+  width: 30%;
+}
+
+.venue {
+  font-size: 12px;
+}
+
+.result {
+  font-size: 12px;
+}
+
+.horizontal-line {
+  border: 1px solid #475569;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .horizontal-line {
+    display: none;
+  }
+  .latest-match-details-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .latest-match-details-and-logo {
+    width: 50%;
+  }
+  .latest-team-logo {
+    width: 220px;
+    height: 220px;
+  }
+  .latest-team-name {
+    font-size: 32px;
+    /* margin-right: 5px; */
+  }
+  .venue,
+  .result {
+    font-size: 18px;
+  }
+  .date {
+    font-size: 20px;
+  }
+  .innings-container {
+    width: 20%;
+    margin-left: 30px;
+    text-align: right;
+  }
+}
